@@ -7565,7 +7565,7 @@ class RiddleComponent {
     }
 }
 RiddleComponent.ɵfac = function RiddleComponent_Factory(t) { return new (t || RiddleComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_common__WEBPACK_IMPORTED_MODULE_2__["DOCUMENT"])); };
-RiddleComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: RiddleComponent, selectors: [["app-riddle"]], decls: 16, vars: 0, consts: [["mainTitle", "Riddle", "subTitle", "from the game Dishonored 2. Why? its just a fun riddle", "scrollable", "true"], ["id", "content-wrapper", 1, "container"], [1, "section-container"], [1, "section-title"], [1, "section-content", "section-content--justify"]], template: function RiddleComponent_Template(rf, ctx) { if (rf & 1) {
+RiddleComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: RiddleComponent, selectors: [["app-riddle"]], decls: 20, vars: 0, consts: [["mainTitle", "Riddle", "scrollable", "true"], ["id", "content-wrapper", 1, "container"], [1, "section-container"], [1, "section-title"], [1, "section-content", "section-content--justify"]], template: function RiddleComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-banner", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
@@ -7587,6 +7587,12 @@ RiddleComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "p");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, " But who owned each? ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](16, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "small");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](19, "\u00A9 Dishonored 2");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
